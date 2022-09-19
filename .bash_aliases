@@ -1,3 +1,5 @@
+# ~/.bash_aliases: executed by ~/.bashrc
+
 # dotfiles repo alias
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
@@ -11,6 +13,9 @@ alias ..='cd ..'
 alias ..2='cd ../..'
 alias ..3='cd ../../..'
 
-# other
+# grep aliases
 alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
 alias c="clear"
