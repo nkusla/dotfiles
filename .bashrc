@@ -21,9 +21,11 @@ shopt -s checkwinsize
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # check if this is xterm and set colors for prompt
+# and change title bar text
 case "$TERM" in
 xterm*|rxvt*)
     PS1='[\[\e[0;32m\]\u@\h\[\e[0m\] \[\e[0;34m\]\w\[\e[0;32m\]\[\e[0m\]]\$ '
+    PROMPT_COMMAND='echo -ne "\e]0;${PWD/#$HOME/\~}\a"'
     ;;
 *)
     PS1='[\u@\h \w]\$ '
@@ -35,8 +37,12 @@ if [ -x /usr/bin/dircolors ]; then
     eval "$(dircolors -b)"
 fi
 
+# default terminal editor
+VISUAL='/usr/bin/nano'
+EDITOR=''
+
 # colored GCC warnings and errors
-export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # sourcing bash_aliases
 if [ -f ~/.bash_aliases ]; then
