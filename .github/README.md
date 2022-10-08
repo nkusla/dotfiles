@@ -1,6 +1,10 @@
-# Setup
+# My dotfiles
 
-Bare git repository for dotfiles can be created by following these commands:
+Just my dotfiles. Nothing special...
+
+## Setup
+
+Repository is intended to be setup as `bare` git repository. This can be done by following these commands:
 
 ```
 cd $HOME
