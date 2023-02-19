@@ -59,7 +59,7 @@
     </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance11851;chromium.instance1429;chromium.instance1430;chromium.instance1433;chromium.instance1441;chromium.instance1494;chromium.instance1704;chromium.instance1761;chromium.instance1812;chromium.instance18330;chromium.instance32685;chromium.instance39829;chromium.instance42608;chromium.instance61544;chromium.instance6613;chromium.instance6990;chromium.instance8773;chromium.instance9672"/>
+      <property name="mpris-players" type="string" value="chromium.instance11851;chromium.instance1429;chromium.instance1430;chromium.instance1433;chromium.instance1441;chromium.instance1494;chromium.instance1704;chromium.instance1761;chromium.instance1812;chromium.instance18330;chromium.instance24928;chromium.instance32685;chromium.instance39829;chromium.instance42608;chromium.instance5197;chromium.instance61544;chromium.instance6613;chromium.instance6990;chromium.instance8773;chromium.instance9672"/>
       <property name="blacklisted-players" type="string" value=""/>
       <property name="play-sound" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
