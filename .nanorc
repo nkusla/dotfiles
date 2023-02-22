@@ -4,9 +4,20 @@ set autoindent
 set linenumbers
 set tabsize 4
 
+# Theme
 set numbercolor white
 set titlecolor white,black
 set keycolor cyan
 set functioncolor white
 set statuscolor brightwhite,black
 set errorcolor brightwhite,red
+
+# Key bindings
+bind ^C copy main
+bind ^V paste main
+bind ^Z undo main
+bind ^Y redo main
+bind ^F whereis main
+bind ^H help main
+bind M-Q findprevious main
+bind M-K findnext main
