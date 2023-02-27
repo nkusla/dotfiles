@@ -1,0 +1,8 @@
+google-chrome
+nordic-darker-theme
+visual-studio-code-bin
+kitty
+noto-fonts
+noto-fonts-emoji
+ttf-jetbrains-mono
+papirus-icon-theme

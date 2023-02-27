@@ -13,8 +13,8 @@ pacman -Syyu --noconfirm
 pacman -S yay --noconfirm
 
 # Installing from pkglist
-yay -S --noconfirm - < $HOMEDIR/.pkglist/pkglist.txt
-yay -S --noconfirm - < $HOMEDIR/.pkglist/xfce4-pkglist.txt
+yay -S --noconfirm --needed - < $HOMEDIR/.pkglist/pkglist.txt
+yay -S --noconfirm --needed - < $HOMEDIR/.pkglist/xfce4-pkglist.txt
 
 # Copying backgrounds
 cp $HOMEDIR/.backgrounds/background.png /usr/share/backgrounds
