@@ -62,10 +62,14 @@
   </property>
   <property name="windowlist-menu" type="empty">
     <property name="show" type="bool" value="false"/>
+    <property name="show-icons" type="bool" value="false"/>
+    <property name="show-workspace-names" type="bool" value="false"/>
+    <property name="show-add-remove-workspaces" type="bool" value="false"/>
   </property>
   <property name="desktop-menu" type="empty">
     <property name="show" type="bool" value="false"/>
     <property name="show-delete" type="bool" value="true"/>
+    <property name="show-icons" type="bool" value="false"/>
   </property>
   <property name="desktop-icons" type="empty">
     <property name="show-tooltips" type="bool" value="false"/>
@@ -75,6 +79,9 @@
       <property name="show-filesystem" type="bool" value="false"/>
       <property name="show-trash" type="bool" value="false"/>
       <property name="show-removable" type="bool" value="false"/>
+      <property name="show-device-removable" type="bool" value="false"/>
+      <property name="show-unknown-removable" type="bool" value="false"/>
+      <property name="show-network-removable" type="bool" value="false"/>
     </property>
   </property>
   <property name="last" type="empty">
