@@ -35,7 +35,6 @@
     </property>
     <property name="custom" type="empty">
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xfce4-session-logout"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;f" type="string" value="thunar"/>
       <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Escape" type="string" value="xkill"/>
@@ -51,7 +50,13 @@
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="&lt;Primary&gt;Print" type="string" value="xfce4-screenshooter -r"/>
+      <property name="&lt;Primary&gt;KP_Up" type="string" value="xdotool mousemove_relative -- 0 -25"/>
+      <property name="&lt;Primary&gt;KP_Down" type="string" value="xdotool mousemove_relative -- 0 25"/>
+      <property name="&lt;Primary&gt;KP_Left" type="string" value="xdotool mousemove_relative -- -25 0"/>
+      <property name="&lt;Primary&gt;KP_Right" type="string" value="xdotool mousemove_relative -- 25 0"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;p" type="string" value="kitty htop"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;f" type="string" value="thunar"/>
+      <property name="&lt;Primary&gt;KP_Begin" type="string" value="xdotool click 1"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
