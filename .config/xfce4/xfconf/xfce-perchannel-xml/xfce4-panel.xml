@@ -109,19 +109,16 @@
     </property>
     <property name="plugin-4" type="string" value="systray">
       <property name="known-legacy-items" type="array">
-        <value type="string" value="xfce4-power-manager"/>
-        <value type="string" value="networkmanager applet"/>
-        <value type="string" value="pidgin"/>
-        <value type="string" value="ethernet network connection “wired connection 1” active"/>
-        <value type="string" value="discord"/>
-        <value type="string" value="clipman"/>
         <value type="string" value="pamac-tray"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="notes"/>
+        <value type="string" value="ethernet network connection “auto ethernet” active"/>
       </property>
       <property name="known-items" type="array">
         <value type="string" value="discord1"/>
       </property>
       <property name="hidden-legacy-items" type="array">
-        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="notes"/>
         <value type="string" value="clipman"/>
         <value type="string" value="pamac-tray"/>
       </property>
@@ -132,6 +129,7 @@
       <property name="single-row" type="bool" value="false"/>
       <property name="icon-size" type="int" value="0"/>
       <property name="symbolic-icons" type="bool" value="false"/>
+      <property name="menu-is-primary" type="bool" value="false"/>
     </property>
     <property name="plugin-10" type="string" value="separator">
       <property name="style" type="uint" value="1"/>
