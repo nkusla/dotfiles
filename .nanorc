@@ -3,6 +3,7 @@ include "/usr/share/nano/*.nanorc"
 set autoindent
 set linenumbers
 set tabsize 4
+set zero
 
 # Theme
 set numbercolor white
@@ -17,6 +18,7 @@ bind ^C copy main
 bind ^V paste main
 bind ^Z undo main
 bind ^Y redo main
+bind ^S savefile main
 bind ^F whereis main
 bind ^H help main
 bind M-Q findprevious main
