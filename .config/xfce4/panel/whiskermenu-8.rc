@@ -1,6 +1,6 @@
 favorites=xfce4-web-browser.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
 recent=xfce4-web-browser.desktop
-button-icon=tux
+button-icon=distributor-logo-manjaro
 button-single-row=false
 show-button-title=false
 show-button-icon=true
