@@ -23,8 +23,8 @@ position-categories-horizontal=false
 stay-on-focus-out=true
 profile-shape=0
 confirm-session-command=true
-menu-width=363
-menu-height=363
+menu-width=380
+menu-height=380
 menu-opacity=100
 command-settings=xfce4-settings-manager
 show-command-settings=true
@@ -49,4 +49,3 @@ show-command-menueditor=true
 command-profile=
 show-command-profile=false
 search-actions=0
-
