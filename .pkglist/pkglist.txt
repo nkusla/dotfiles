@@ -8,3 +8,15 @@ ttf-jetbrains-mono
 papirus-icon-theme
 viewnior
 evince
+gnome-disk-utility
+btop
+neofetch
+wget
+xdotool
+bat
+make
+gcc
+g++
+tree
+python
+python-pip

@@ -3,7 +3,7 @@ include "/usr/share/nano/*.nanorc"
 set autoindent
 set linenumbers
 set tabsize 4
-set zero
+#set zero
 
 # Theme
 set numbercolor white
