@@ -15,8 +15,10 @@ wget
 xdotool
 bat
 make
+cmake
 gcc
 g++
 tree
 python
 python-pip
+pkgconf
