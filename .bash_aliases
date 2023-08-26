@@ -21,3 +21,4 @@ alias egrep='egrep --color=auto'
 alias c="clear"
 alias du="du -h"
 alias cat="bat --theme=OneHalfDark"
+alias minecraft="java -jar ~/Games/TLauncher-*/TLauncher-*.jar"

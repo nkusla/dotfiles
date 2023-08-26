@@ -5,6 +5,7 @@ HOME_DIR=/home/$USER
 # Creating custom directories
 mkdir -p $HOME_DIR/Projects
 mkdir -p $HOME_DIR/Pictures/Screenshots
+mkdir -p $HOME_DIR/Games
 
 # Full system upgrade and AUR helper installation
 sudo pacman-mirrors --fasttrack 8
