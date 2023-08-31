@@ -92,7 +92,7 @@
       <property name="play-sound" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
       <property name="enable-wnck" type="bool" value="false"/>
-      <property name="mpris-players" type="string" value="chromium.instance4967"/>
+      <property name="mpris-players" type="string" value="Chrome"/>
     </property>
     <property name="plugin-8" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
