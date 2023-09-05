@@ -22,3 +22,4 @@ tree
 python
 python-pip
 pkgconf
+tldr
