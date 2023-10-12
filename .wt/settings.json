@@ -1,10 +1,10 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions":
+    "actions": 
     [
         {
-            "command":
+            "command": 
             {
                 "action": "copy",
                 "singleLine": false
@@ -20,7 +20,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -37,50 +37,65 @@
             "keys": "ctrl+shift+n"
         },
         {
-            "command":
+            "command": "unbound",
+            "keys": "ctrl+enter"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+backspace"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+f11"
+        },
+        {
+            "command": 
             {
                 "action": "newTab"
             },
             "keys": "ctrl+t"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "closeTab"
             },
             "keys": "ctrl+w"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "newWindow"
             },
             "keys": "ctrl+n"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "nextTab"
             },
             "keys": "ctrl+pgup"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "prevTab"
             },
             "keys": "ctrl+pgdn"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "splitPane"
             },
-            "keys": "ctrl+enter"
+            "keys": "alt+enter"
         },
         {
             "command": "closePane",
-            "keys": "ctrl+backspace"
+            "keys": "alt+backspace"
+        },
+        {
+            "command": "toggleFullscreen"
         }
     ],
     "centerOnLaunch": true,
@@ -88,22 +103,22 @@
     "copyOnSelect": false,
     "defaultProfile": "{51855cb2-8cce-5362-8f54-464b92b32386}",
     "disableAnimations": true,
-    "newTabMenu":
+    "newTabMenu": 
     [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles":
+    "profiles": 
     {
-        "defaults":
+        "defaults": 
         {
-            "font":
+            "font": 
             {
                 "size": 13.0
             }
         },
-        "list":
+        "list": 
         [
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
@@ -125,24 +140,25 @@
             },
             {
                 "antialiasingMode": "grayscale",
-                "backgroundImage": "C:\\Users\\nikol\\Downloads\\linux-tux.png",
-                "backgroundImageOpacity": 0.1,
+                "backgroundImage": "C:\\Users\\nikol\\Pictures\\Saved Pictures\\linux-tux.png",
+                "backgroundImageOpacity": 0.2,
                 "colorScheme": "Tokyo Night",
                 "cursorShape": "bar",
-                "font":
+                "font": 
                 {
                     "face": "JetBrains Mono"
                 },
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
                 "name": "Ubuntu",
+                "opacity": 100,
                 "padding": "10",
                 "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
                 "startingDirectory": null
             }
         ]
     },
-    "schemes":
+    "schemes": 
     [
         {
             "background": "#0C0C0C",
@@ -399,17 +415,17 @@
         }
     ],
     "tabSwitcherMode": "inOrder",
-    "themes":
+    "themes": 
     [
         {
             "name": "legacyDark",
-            "tab":
+            "tab": 
             {
                 "background": null,
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
-            "window":
+            "window": 
             {
                 "applicationTheme": "dark",
                 "useMica": false
@@ -417,13 +433,13 @@
         },
         {
             "name": "legacyLight",
-            "tab":
+            "tab": 
             {
                 "background": null,
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
-            "window":
+            "window": 
             {
                 "applicationTheme": "light",
                 "useMica": false
@@ -431,13 +447,13 @@
         },
         {
             "name": "legacySystem",
-            "tab":
+            "tab": 
             {
                 "background": null,
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
-            "window":
+            "window": 
             {
                 "applicationTheme": "system",
                 "useMica": false
