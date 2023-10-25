@@ -1,15 +1,22 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
+    "actions":
     [
         {
-            "command": 
+            "command":
             {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
+        },
+        {
+            "command":
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
         },
         {
             "command": "paste",
@@ -20,7 +27,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -49,46 +56,39 @@
             "keys": "alt+f11"
         },
         {
-            "command": 
+            "command":
             {
-                "action": "newTab"
+                "action": "splitPane"
             },
-            "keys": "ctrl+t"
+            "keys": "alt+enter"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "closeTab"
             },
             "keys": "ctrl+w"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "newWindow"
             },
             "keys": "ctrl+n"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "nextTab"
             },
             "keys": "ctrl+pgup"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "prevTab"
             },
             "keys": "ctrl+pgdn"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane"
-            },
-            "keys": "alt+enter"
         },
         {
             "command": "closePane",
@@ -101,24 +101,24 @@
     "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+    "defaultProfile": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
     "disableAnimations": true,
-    "newTabMenu": 
+    "newTabMenu":
     [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": 
+    "profiles":
     {
-        "defaults": 
+        "defaults":
         {
-            "font": 
+            "font":
             {
                 "size": 13.0
             }
         },
-        "list": 
+        "list":
         [
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
@@ -140,25 +140,25 @@
             },
             {
                 "antialiasingMode": "grayscale",
-                "backgroundImage": "C:\\Users\\nikol\\Pictures\\Saved Pictures\\linux-tux.png",
+                "backgroundImage": "C:\\Users\\nikol\\Pictures\\.backgrounds\\linux-tux.png",
                 "backgroundImageOpacity": 0.2,
                 "colorScheme": "Tokyo Night",
+                "commandline": "wsl -d Ubuntu",
                 "cursorShape": "bar",
-                "font": 
+                "font":
                 {
                     "face": "JetBrains Mono"
                 },
-                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
                 "hidden": false,
-                "name": "Ubuntu",
-                "opacity": 100,
-                "padding": "10",
-                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
-                "startingDirectory": null
+                "name": "Ubuntu 22.04",
+                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
+                "startingDirectory": "\\\\wsl.localhost\\Ubuntu\\home\\nkusla",
+                "tabTitle": "Ubuntu 22.04"
             }
         ]
     },
-    "schemes": 
+    "schemes":
     [
         {
             "background": "#0C0C0C",
@@ -383,6 +383,29 @@
             "cyan": "#3A96DD",
             "foreground": "#FFFFFF",
             "green": "#26A269",
+            "name": "Ubuntu-22.04-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        },
+        {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
             "name": "Ubuntu-ColorScheme",
             "purple": "#881798",
             "red": "#C21A23",
@@ -415,17 +438,16 @@
         }
     ],
     "tabSwitcherMode": "inOrder",
-    "themes": 
-    [
-        {
+    "themes": [
+		{
             "name": "legacyDark",
-            "tab": 
+            "tab":
             {
                 "background": null,
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
-            "window": 
+            "window":
             {
                 "applicationTheme": "dark",
                 "useMica": false
@@ -433,13 +455,13 @@
         },
         {
             "name": "legacyLight",
-            "tab": 
+            "tab":
             {
                 "background": null,
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
-            "window": 
+            "window":
             {
                 "applicationTheme": "light",
                 "useMica": false
@@ -447,17 +469,17 @@
         },
         {
             "name": "legacySystem",
-            "tab": 
+            "tab":
             {
                 "background": null,
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
-            "window": 
+            "window":
             {
                 "applicationTheme": "system",
                 "useMica": false
             }
         }
-    ]
+	]
 }
