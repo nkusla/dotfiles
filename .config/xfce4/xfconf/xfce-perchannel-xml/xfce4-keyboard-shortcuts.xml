@@ -57,6 +57,10 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;f" type="string" value="thunar"/>
       <property name="&lt;Primary&gt;KP_Begin" type="string" value="xdotool click 1"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;p" type="string" value="kitty btop"/>
+      <property name="Messenger" type="string" value="playerctl play-pause"/>
+      <property name="Favorites" type="string" value="playerctl next"/>
+      <property name="Cancel" type="string" value="playerctl previous"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;n" type="string" value="kitty nano -o ~/Documents"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

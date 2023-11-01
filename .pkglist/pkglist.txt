@@ -16,6 +16,7 @@ nordic-darker-theme
 noto-fonts
 noto-fonts-emoji
 papirus-icon-theme
+playerctl
 pkgconf
 python
 python-pip
