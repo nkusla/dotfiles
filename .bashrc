@@ -67,3 +67,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+export PATH="$PATH:/home/nkusla/.dotnet:/home/nkusla/.dotnet/tools"
+export DOTNET_ROOT="/home/nkusla/.dotnet"
