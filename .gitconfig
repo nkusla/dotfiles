@@ -10,3 +10,5 @@
 	dog = log --decorate --oneline --graph
 	adog = log --all --decorate --oneline --graph
 	last = log --oneline -n
+	pr = "!f() { git fetch origin pull/$1/head:pr-$1 && git checkout pr-$1; }; f"
+	pr-clean = "!git branch | grep 'pr-' | xargs -r git branch -D"
