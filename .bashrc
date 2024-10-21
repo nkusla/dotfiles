@@ -68,5 +68,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# dotnet paths
 export PATH="$PATH:/home/nkusla/.dotnet:/home/nkusla/.dotnet/tools"
 export DOTNET_ROOT="/home/nkusla/.dotnet"
+
+# nvm
+source /usr/share/nvm/init-nvm.sh
