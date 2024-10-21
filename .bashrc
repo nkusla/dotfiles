@@ -72,5 +72,14 @@ fi
 export PATH="$PATH:/home/nkusla/.dotnet:/home/nkusla/.dotnet/tools"
 export DOTNET_ROOT="/home/nkusla/.dotnet"
 
-# nvm
-source /usr/share/nvm/init-nvm.sh
+# NVM
+if [ -d "$HOME/.nvm" ]; then
+    export NVM_DIR="$HOME/.nvm"
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+fi
+
+# Load Angular CLI autocompletion only if 'ng' command is available
+if command -v ng &> /dev/null; then
+    source <(ng completion script)
+fi
