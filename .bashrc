@@ -83,3 +83,6 @@ fi
 if command -v ng &> /dev/null; then
     source <(ng completion script)
 fi
+
+# Go
+export PATH="$PATH:/usr/local/go/bin"
