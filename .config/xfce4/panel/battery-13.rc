@@ -1,5 +1,5 @@
 display_label=false
-display_icon=false
+display_icon=true
 display_power=false
 display_percentage=true
 display_bar=false
