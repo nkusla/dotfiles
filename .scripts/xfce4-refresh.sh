@@ -3,6 +3,6 @@
 kill $(pidof xfce4-panel)
 xfce4-panel &
 xfwm4 --replace &
-xfdekstop --replace &
+xfdesktop &
 
 disown
