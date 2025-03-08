@@ -3,5 +3,6 @@
   "IS_MINIMIZED": false,
   "SKIP_HOST_UPDATE": true,
   "OPEN_ON_STARTUP": false,
-  "chromiumSwitches": {}
+  "chromiumSwitches": {},
+  "BACKGROUND_COLOR": "#2b2d31"
 }
