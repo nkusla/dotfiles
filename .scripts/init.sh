@@ -10,7 +10,6 @@ mkdir -p $HOME_DIR/Games
 # Full system upgrade and AUR helper installation
 sudo pacman-mirrors --fasttrack 8
 sudo pacman -Syyu --noconfirm
-sudo pacman -S yay --noconfirm
 
 # Copying backgrounds
 sudo cp $HOME_DIR/.backgrounds/background.png /usr/share/backgrounds

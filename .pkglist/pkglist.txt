@@ -28,3 +28,12 @@ wget
 xdg-desktop-portal-gtk
 xdotool
 openssh
+less
+networkmanager
+network-manager-applet
+zip
+unzip
+tar
+xarchiver
+dosfstools
+ntfs-3g

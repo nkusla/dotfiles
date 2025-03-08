@@ -43,7 +43,7 @@
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="whiskermenu">
-      <property name="button-icon" type="string" value="distributor-logo-manjaro"/>
+      <property name="button-icon" type="string" value="archlinux-logo"/>
       <property name="favorites-in-recent" type="bool" value="true"/>
       <property name="stay-on-focus-out" type="bool" value="true"/>
       <property name="menu-width" type="int" value="380"/>
@@ -57,6 +57,7 @@
         <value type="string" value="xfce4-terminal-emulator.desktop"/>
       </property>
       <property name="recent" type="array">
+        <value type="string" value="xfce4-terminal-emulator.desktop"/>
         <value type="string" value="xfce4-web-browser.desktop"/>
       </property>
     </property>
@@ -77,6 +78,8 @@
     </property>
     <property name="plugin-5" type="string" value="systray">
       <property name="known-legacy-items" type="array">
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="no network connection"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="pamac-tray"/>
         <value type="string" value="clipman"/>
