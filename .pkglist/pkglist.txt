@@ -13,6 +13,7 @@ make
 neofetch
 nordic-darker-theme
 noto-fonts
+noto-font-cjk
 noto-fonts-emoji
 papirus-icon-theme
 playerctl
@@ -38,3 +39,14 @@ xarchiver
 dosfstools
 ntfs-3g
 phinger-cursors
+gnome-keyring
+libsecret
+openssl
+binutils
+exfatprogs
+git
+blueman
+bluez
+bluez-utils
+pulseaudio-bluetooth
+discord
