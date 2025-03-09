@@ -37,3 +37,4 @@ tar
 xarchiver
 dosfstools
 ntfs-3g
+phinger-cursors
