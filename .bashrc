@@ -68,6 +68,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# local paths
+export PATH="$PATH:/home/nkusla/.local/bin"
+
 # dotnet paths
 export PATH="$PATH:/home/nkusla/.dotnet:/home/nkusla/.dotnet/tools"
 export DOTNET_ROOT="/home/nkusla/.dotnet"
