@@ -77,3 +77,6 @@ export DOTNET_ROOT="/home/nkusla/.dotnet"
 
 # Go
 export PATH="$PATH:/usr/local/go/bin"
+
+# Rust
+. "$HOME/.cargo/env"
