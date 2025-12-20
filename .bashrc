@@ -6,6 +6,8 @@ case $- in
 *) return;;
 esac
 
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 # history options
 HISTCONTROL=ignoreboth
 HISTSIZE=1000
@@ -34,7 +36,7 @@ xterm*|rxvt*)
 	# Sets user shell prompt
     PS1='[\[\e[0;32m\]\u@\h\[\e[0m\] \[\e[0;34m\]\w\[\e[0;32m\]\[\e[0m\]]\e[33m$(parse_git_branch)\e[0m \$ '
 	# Sets terminal tab name
-    PROMPT_COMMAND='echo -ne "\e]0;${PWD/#$HOME/\~}\a"'
+    PROMPT_COMMAND='printf "\e]0;%s\a" "${PWD/#$HOME/\~}"'
     ;;
 *)
 	# Sets root user shell prompt
@@ -79,4 +81,6 @@ export DOTNET_ROOT="/home/nkusla/.dotnet"
 export PATH="$PATH:/usr/local/go/bin"
 
 # Rust
-. "$HOME/.cargo/env"
+if [ -f "$HOME/.cargo/env" ]; then
+  . "$HOME/.cargo/env"
+fi
