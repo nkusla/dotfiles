@@ -32,7 +32,7 @@ parse_git_branch() {
 # check if this is xterm and set colors for prompt
 # and change title bar text
 case "$TERM" in
-xterm*|rxvt*)
+xterm*|rxvt*|screen*|tmux*)
 	# Sets user shell prompt
     PS1='[\[\e[0;32m\]\u@\h\[\e[0m\] \[\e[0;34m\]\w\[\e[0;32m\]\[\e[0m\]]\e[33m$(parse_git_branch)\e[0m \$ '
 	# Sets terminal tab name
@@ -84,3 +84,22 @@ export PATH="$PATH:/usr/local/go/bin"
 if [ -f "$HOME/.cargo/env" ]; then
   . "$HOME/.cargo/env"
 fi
+
+# >>> juliaup initialize >>>
+
+# !! Contents within this block are managed by juliaup !!
+
+case ":$PATH:" in
+    *:/home/nkusla/.juliaup/bin:*)
+        ;;
+
+    *)
+        export PATH=/home/nkusla/.juliaup/bin${PATH:+:${PATH}}
+        ;;
+esac
+
+# <<< juliaup initialize <<<
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
