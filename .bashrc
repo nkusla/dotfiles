@@ -70,6 +70,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# MacOS Homebrew paths
+export PATH="/opt/homebrew/bin:$PATH"
+
 # local paths
 export PATH="$PATH:/home/nkusla/.local/bin"
 
@@ -85,21 +88,9 @@ if [ -f "$HOME/.cargo/env" ]; then
   . "$HOME/.cargo/env"
 fi
 
-# >>> juliaup initialize >>>
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/nkusla/.lmstudio/bin"
+# End of LM Studio CLI section
 
-# !! Contents within this block are managed by juliaup !!
-
-case ":$PATH:" in
-    *:/home/nkusla/.juliaup/bin:*)
-        ;;
-
-    *)
-        export PATH=/home/nkusla/.juliaup/bin${PATH:+:${PATH}}
-        ;;
-esac
-
-# <<< juliaup initialize <<<
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# Android Studio on MacOS
+export PATH=$PATH:~/Library/Android/sdk/platform-tools
